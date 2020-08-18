@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+	int main()
+	{
+	
+		int cargo;
+	
+			printf("Digite o código do cargo para saber o aumento e os códigos válidos são: 10, 11, 12, 13 e 19: ");
+			scanf("%d", &cargo);
+	
+			if (cargo == 12)
+			{
+			printf("O aumento é de 23%");
+			}
+			else if (cargo == 19);
+			{	
+			printf("O aumento é de 11%");
+			}
+			else if (cargo == 10);
+			{	
+			printf("O aumento é de 20%");		
+			}	
+			else if (cargo == 11);
+			{	
+			printf("O aumento é de 12%");		
+			}	
+			else if (cargo == 13);
+			{	
+			printf("O aumento é de 26%");		
+			}
+	
+		return (0);
+	}
