@@ -1,0 +1,27 @@
+#include <stdio.h>
+		
+		int main ()		
+		int idade;
+		
+		printf ("Informe a sua idade: ");
+		scanf ("%d", &idade);
+		
+		if (idade <= 16)
+	
+		{
+			printf ("Você não pode votar\n");
+		}
+		
+		else if (idade >= 18) || (idade <=65)
+		
+		{
+			printf ("Você deve votar\n");
+		}
+		
+		else if (idade > 16) || (idade < 18) || (idade > 65) 
+
+		{
+			printf ("Você pode ou não votar");
+		}
+		
+	return (0);
